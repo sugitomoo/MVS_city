@@ -57,8 +57,6 @@ async function loadSegmentsData() {
         createVideoElements(segmentsJson);
         initializeSegments(segmentsJson);
         initializeVideos();
-        
-        document.getElementById('error-container').classList.add('hidden');
     } catch (error) {
         showError('Failed to load segments data: ' + error.message);
     }

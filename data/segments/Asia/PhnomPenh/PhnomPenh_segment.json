@@ -1,0 +1,2836 @@
+{
+  "P69BA9Da9hE": [
+    {
+      "segment_number": 0,
+      "start_frame": 0,
+      "end_frame": 6,
+      "start": 0.0,
+      "end": 3.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 1,
+      "start_frame": 7,
+      "end_frame": 10,
+      "start": 3.5,
+      "end": 5.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 2,
+      "start_frame": 11,
+      "end_frame": 15,
+      "start": 5.5,
+      "end": 8.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 3,
+      "start_frame": 16,
+      "end_frame": 19,
+      "start": 8.0,
+      "end": 10.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 4,
+      "start_frame": 20,
+      "end_frame": 29,
+      "start": 10.0,
+      "end": 15.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 5,
+      "start_frame": 30,
+      "end_frame": 34,
+      "start": 15.0,
+      "end": 17.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 6,
+      "start_frame": 35,
+      "end_frame": 39,
+      "start": 17.5,
+      "end": 20.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 7,
+      "start_frame": 40,
+      "end_frame": 56,
+      "start": 20.0,
+      "end": 28.5,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 8,
+      "start_frame": 57,
+      "end_frame": 67,
+      "start": 28.5,
+      "end": 34.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 9,
+      "start_frame": 68,
+      "end_frame": 78,
+      "start": 34.0,
+      "end": 39.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 10,
+      "start_frame": 79,
+      "end_frame": 88,
+      "start": 39.5,
+      "end": 44.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 11,
+      "start_frame": 89,
+      "end_frame": 109,
+      "start": 44.5,
+      "end": 55.0,
+      "duration": 10.5
+    },
+    {
+      "segment_number": 12,
+      "start_frame": 110,
+      "end_frame": 122,
+      "start": 55.0,
+      "end": 61.5,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 13,
+      "start_frame": 123,
+      "end_frame": 140,
+      "start": 61.5,
+      "end": 70.5,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 14,
+      "start_frame": 141,
+      "end_frame": 156,
+      "start": 70.5,
+      "end": 78.5,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 15,
+      "start_frame": 157,
+      "end_frame": 166,
+      "start": 78.5,
+      "end": 83.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 16,
+      "start_frame": 167,
+      "end_frame": 183,
+      "start": 83.5,
+      "end": 92.0,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 17,
+      "start_frame": 184,
+      "end_frame": 190,
+      "start": 92.0,
+      "end": 95.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 18,
+      "start_frame": 191,
+      "end_frame": 210,
+      "start": 95.5,
+      "end": 105.5,
+      "duration": 10.0
+    },
+    {
+      "segment_number": 19,
+      "start_frame": 211,
+      "end_frame": 219,
+      "start": 105.5,
+      "end": 110.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 20,
+      "start_frame": 220,
+      "end_frame": 225,
+      "start": 110.0,
+      "end": 113.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 21,
+      "start_frame": 226,
+      "end_frame": 229,
+      "start": 113.0,
+      "end": 115.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 22,
+      "start_frame": 230,
+      "end_frame": 250,
+      "start": 115.0,
+      "end": 125.5,
+      "duration": 10.5
+    },
+    {
+      "segment_number": 23,
+      "start_frame": 251,
+      "end_frame": 258,
+      "start": 125.5,
+      "end": 129.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 24,
+      "start_frame": 259,
+      "end_frame": 271,
+      "start": 129.5,
+      "end": 136.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 25,
+      "start_frame": 272,
+      "end_frame": 279,
+      "start": 136.0,
+      "end": 140.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 26,
+      "start_frame": 280,
+      "end_frame": 290,
+      "start": 140.0,
+      "end": 145.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 27,
+      "start_frame": 291,
+      "end_frame": 294,
+      "start": 145.5,
+      "end": 147.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 28,
+      "start_frame": 295,
+      "end_frame": 307,
+      "start": 147.5,
+      "end": 154.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 29,
+      "start_frame": 308,
+      "end_frame": 312,
+      "start": 154.0,
+      "end": 156.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 30,
+      "start_frame": 313,
+      "end_frame": 325,
+      "start": 156.5,
+      "end": 163.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 31,
+      "start_frame": 326,
+      "end_frame": 332,
+      "start": 163.0,
+      "end": 166.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 32,
+      "start_frame": 333,
+      "end_frame": 348,
+      "start": 166.5,
+      "end": 174.5,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 33,
+      "start_frame": 349,
+      "end_frame": 360,
+      "start": 174.5,
+      "end": 180.5,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 34,
+      "start_frame": 361,
+      "end_frame": 372,
+      "start": 180.5,
+      "end": 186.5,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 35,
+      "start_frame": 373,
+      "end_frame": 376,
+      "start": 186.5,
+      "end": 188.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 36,
+      "start_frame": 377,
+      "end_frame": 382,
+      "start": 188.5,
+      "end": 191.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 37,
+      "start_frame": 383,
+      "end_frame": 401,
+      "start": 191.5,
+      "end": 201.0,
+      "duration": 9.5
+    },
+    {
+      "segment_number": 38,
+      "start_frame": 402,
+      "end_frame": 405,
+      "start": 201.0,
+      "end": 203.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 39,
+      "start_frame": 406,
+      "end_frame": 414,
+      "start": 203.0,
+      "end": 207.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 40,
+      "start_frame": 415,
+      "end_frame": 418,
+      "start": 207.5,
+      "end": 209.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 41,
+      "start_frame": 419,
+      "end_frame": 432,
+      "start": 209.5,
+      "end": 216.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 42,
+      "start_frame": 433,
+      "end_frame": 439,
+      "start": 216.5,
+      "end": 220.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 43,
+      "start_frame": 440,
+      "end_frame": 443,
+      "start": 220.0,
+      "end": 222.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 44,
+      "start_frame": 444,
+      "end_frame": 454,
+      "start": 222.0,
+      "end": 227.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 45,
+      "start_frame": 455,
+      "end_frame": 459,
+      "start": 227.5,
+      "end": 230.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 46,
+      "start_frame": 460,
+      "end_frame": 465,
+      "start": 230.0,
+      "end": 233.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 47,
+      "start_frame": 466,
+      "end_frame": 478,
+      "start": 233.0,
+      "end": 239.5,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 48,
+      "start_frame": 479,
+      "end_frame": 485,
+      "start": 239.5,
+      "end": 243.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 49,
+      "start_frame": 486,
+      "end_frame": 496,
+      "start": 243.0,
+      "end": 248.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 50,
+      "start_frame": 497,
+      "end_frame": 505,
+      "start": 248.5,
+      "end": 253.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 51,
+      "start_frame": 506,
+      "end_frame": 514,
+      "start": 253.0,
+      "end": 257.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 52,
+      "start_frame": 515,
+      "end_frame": 532,
+      "start": 257.5,
+      "end": 266.5,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 53,
+      "start_frame": 533,
+      "end_frame": 541,
+      "start": 266.5,
+      "end": 271.0,
+      "duration": 4.5
+    }
+  ],
+  "71XEkVeVGoc": [
+    {
+      "segment_number": 0,
+      "start_frame": 0,
+      "end_frame": 5,
+      "start": 0.0,
+      "end": 3.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 1,
+      "start_frame": 6,
+      "end_frame": 12,
+      "start": 3.0,
+      "end": 6.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 2,
+      "start_frame": 13,
+      "end_frame": 17,
+      "start": 6.5,
+      "end": 9.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 3,
+      "start_frame": 18,
+      "end_frame": 22,
+      "start": 9.0,
+      "end": 11.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 4,
+      "start_frame": 23,
+      "end_frame": 38,
+      "start": 11.5,
+      "end": 19.5,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 5,
+      "start_frame": 39,
+      "end_frame": 42,
+      "start": 19.5,
+      "end": 21.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 6,
+      "start_frame": 43,
+      "end_frame": 74,
+      "start": 21.5,
+      "end": 37.5,
+      "duration": 16.0
+    },
+    {
+      "segment_number": 7,
+      "start_frame": 75,
+      "end_frame": 82,
+      "start": 37.5,
+      "end": 41.5,
+      "duration": 4.0
+    }
+  ],
+  "i7l8gxqb34A": [
+    {
+      "segment_number": 0,
+      "start_frame": 0,
+      "end_frame": 6,
+      "start": 0.0,
+      "end": 3.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 1,
+      "start_frame": 7,
+      "end_frame": 11,
+      "start": 3.5,
+      "end": 6.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 2,
+      "start_frame": 12,
+      "end_frame": 17,
+      "start": 6.0,
+      "end": 9.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 3,
+      "start_frame": 18,
+      "end_frame": 24,
+      "start": 9.0,
+      "end": 12.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 4,
+      "start_frame": 25,
+      "end_frame": 45,
+      "start": 12.5,
+      "end": 23.0,
+      "duration": 10.5
+    },
+    {
+      "segment_number": 5,
+      "start_frame": 46,
+      "end_frame": 53,
+      "start": 23.0,
+      "end": 27.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 6,
+      "start_frame": 54,
+      "end_frame": 57,
+      "start": 27.0,
+      "end": 29.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 7,
+      "start_frame": 58,
+      "end_frame": 61,
+      "start": 29.0,
+      "end": 31.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 8,
+      "start_frame": 62,
+      "end_frame": 66,
+      "start": 31.0,
+      "end": 33.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 9,
+      "start_frame": 67,
+      "end_frame": 73,
+      "start": 33.5,
+      "end": 37.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 10,
+      "start_frame": 74,
+      "end_frame": 82,
+      "start": 37.0,
+      "end": 41.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 11,
+      "start_frame": 83,
+      "end_frame": 98,
+      "start": 41.5,
+      "end": 49.5,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 12,
+      "start_frame": 99,
+      "end_frame": 115,
+      "start": 49.5,
+      "end": 58.0,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 13,
+      "start_frame": 116,
+      "end_frame": 142,
+      "start": 58.0,
+      "end": 71.5,
+      "duration": 13.5
+    },
+    {
+      "segment_number": 14,
+      "start_frame": 143,
+      "end_frame": 164,
+      "start": 71.5,
+      "end": 82.5,
+      "duration": 11.0
+    },
+    {
+      "segment_number": 15,
+      "start_frame": 165,
+      "end_frame": 178,
+      "start": 82.5,
+      "end": 89.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 16,
+      "start_frame": 179,
+      "end_frame": 198,
+      "start": 89.5,
+      "end": 99.5,
+      "duration": 10.0
+    },
+    {
+      "segment_number": 17,
+      "start_frame": 199,
+      "end_frame": 212,
+      "start": 99.5,
+      "end": 106.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 18,
+      "start_frame": 213,
+      "end_frame": 219,
+      "start": 106.5,
+      "end": 110.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 19,
+      "start_frame": 220,
+      "end_frame": 226,
+      "start": 110.0,
+      "end": 113.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 20,
+      "start_frame": 227,
+      "end_frame": 230,
+      "start": 113.5,
+      "end": 115.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 21,
+      "start_frame": 231,
+      "end_frame": 239,
+      "start": 115.5,
+      "end": 120.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 22,
+      "start_frame": 240,
+      "end_frame": 243,
+      "start": 120.0,
+      "end": 122.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 23,
+      "start_frame": 244,
+      "end_frame": 249,
+      "start": 122.0,
+      "end": 125.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 24,
+      "start_frame": 250,
+      "end_frame": 253,
+      "start": 125.0,
+      "end": 127.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 25,
+      "start_frame": 254,
+      "end_frame": 257,
+      "start": 127.0,
+      "end": 129.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 26,
+      "start_frame": 258,
+      "end_frame": 263,
+      "start": 129.0,
+      "end": 132.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 27,
+      "start_frame": 264,
+      "end_frame": 270,
+      "start": 132.0,
+      "end": 135.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 28,
+      "start_frame": 271,
+      "end_frame": 274,
+      "start": 135.5,
+      "end": 137.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 29,
+      "start_frame": 275,
+      "end_frame": 279,
+      "start": 137.5,
+      "end": 140.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 30,
+      "start_frame": 280,
+      "end_frame": 283,
+      "start": 140.0,
+      "end": 142.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 31,
+      "start_frame": 284,
+      "end_frame": 287,
+      "start": 142.0,
+      "end": 144.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 32,
+      "start_frame": 288,
+      "end_frame": 293,
+      "start": 144.0,
+      "end": 147.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 33,
+      "start_frame": 294,
+      "end_frame": 298,
+      "start": 147.0,
+      "end": 149.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 34,
+      "start_frame": 299,
+      "end_frame": 303,
+      "start": 149.5,
+      "end": 152.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 35,
+      "start_frame": 304,
+      "end_frame": 307,
+      "start": 152.0,
+      "end": 154.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 36,
+      "start_frame": 308,
+      "end_frame": 312,
+      "start": 154.0,
+      "end": 156.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 37,
+      "start_frame": 313,
+      "end_frame": 316,
+      "start": 156.5,
+      "end": 158.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 38,
+      "start_frame": 317,
+      "end_frame": 322,
+      "start": 158.5,
+      "end": 161.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 39,
+      "start_frame": 323,
+      "end_frame": 334,
+      "start": 161.5,
+      "end": 167.5,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 40,
+      "start_frame": 335,
+      "end_frame": 338,
+      "start": 167.5,
+      "end": 169.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 41,
+      "start_frame": 339,
+      "end_frame": 349,
+      "start": 169.5,
+      "end": 175.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 42,
+      "start_frame": 350,
+      "end_frame": 358,
+      "start": 175.0,
+      "end": 179.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 43,
+      "start_frame": 359,
+      "end_frame": 365,
+      "start": 179.5,
+      "end": 183.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 44,
+      "start_frame": 366,
+      "end_frame": 374,
+      "start": 183.0,
+      "end": 187.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 45,
+      "start_frame": 375,
+      "end_frame": 381,
+      "start": 187.5,
+      "end": 191.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 46,
+      "start_frame": 382,
+      "end_frame": 385,
+      "start": 191.0,
+      "end": 193.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 47,
+      "start_frame": 386,
+      "end_frame": 392,
+      "start": 193.0,
+      "end": 196.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 48,
+      "start_frame": 393,
+      "end_frame": 398,
+      "start": 196.5,
+      "end": 199.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 49,
+      "start_frame": 399,
+      "end_frame": 406,
+      "start": 199.5,
+      "end": 203.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 50,
+      "start_frame": 407,
+      "end_frame": 411,
+      "start": 203.5,
+      "end": 206.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 51,
+      "start_frame": 412,
+      "end_frame": 418,
+      "start": 206.0,
+      "end": 209.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 52,
+      "start_frame": 419,
+      "end_frame": 425,
+      "start": 209.5,
+      "end": 213.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 53,
+      "start_frame": 426,
+      "end_frame": 434,
+      "start": 213.0,
+      "end": 217.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 54,
+      "start_frame": 435,
+      "end_frame": 443,
+      "start": 217.5,
+      "end": 222.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 55,
+      "start_frame": 444,
+      "end_frame": 456,
+      "start": 222.0,
+      "end": 228.5,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 56,
+      "start_frame": 457,
+      "end_frame": 471,
+      "start": 228.5,
+      "end": 236.0,
+      "duration": 7.5
+    },
+    {
+      "segment_number": 57,
+      "start_frame": 472,
+      "end_frame": 483,
+      "start": 236.0,
+      "end": 242.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 58,
+      "start_frame": 484,
+      "end_frame": 503,
+      "start": 242.0,
+      "end": 252.0,
+      "duration": 10.0
+    },
+    {
+      "segment_number": 59,
+      "start_frame": 504,
+      "end_frame": 518,
+      "start": 252.0,
+      "end": 259.5,
+      "duration": 7.5
+    },
+    {
+      "segment_number": 60,
+      "start_frame": 519,
+      "end_frame": 529,
+      "start": 259.5,
+      "end": 265.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 61,
+      "start_frame": 530,
+      "end_frame": 553,
+      "start": 265.0,
+      "end": 277.0,
+      "duration": 12.0
+    },
+    {
+      "segment_number": 62,
+      "start_frame": 554,
+      "end_frame": 571,
+      "start": 277.0,
+      "end": 286.0,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 63,
+      "start_frame": 572,
+      "end_frame": 581,
+      "start": 286.0,
+      "end": 291.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 64,
+      "start_frame": 582,
+      "end_frame": 608,
+      "start": 291.0,
+      "end": 304.5,
+      "duration": 13.5
+    },
+    {
+      "segment_number": 65,
+      "start_frame": 609,
+      "end_frame": 613,
+      "start": 304.5,
+      "end": 307.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 66,
+      "start_frame": 614,
+      "end_frame": 618,
+      "start": 307.0,
+      "end": 309.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 67,
+      "start_frame": 619,
+      "end_frame": 628,
+      "start": 309.5,
+      "end": 314.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 68,
+      "start_frame": 629,
+      "end_frame": 636,
+      "start": 314.5,
+      "end": 318.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 69,
+      "start_frame": 637,
+      "end_frame": 645,
+      "start": 318.5,
+      "end": 323.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 70,
+      "start_frame": 646,
+      "end_frame": 649,
+      "start": 323.0,
+      "end": 325.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 71,
+      "start_frame": 650,
+      "end_frame": 656,
+      "start": 325.0,
+      "end": 328.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 72,
+      "start_frame": 657,
+      "end_frame": 661,
+      "start": 328.5,
+      "end": 331.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 73,
+      "start_frame": 662,
+      "end_frame": 678,
+      "start": 331.0,
+      "end": 339.5,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 74,
+      "start_frame": 679,
+      "end_frame": 687,
+      "start": 339.5,
+      "end": 344.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 75,
+      "start_frame": 688,
+      "end_frame": 693,
+      "start": 344.0,
+      "end": 347.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 76,
+      "start_frame": 694,
+      "end_frame": 699,
+      "start": 347.0,
+      "end": 350.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 77,
+      "start_frame": 700,
+      "end_frame": 715,
+      "start": 350.0,
+      "end": 358.0,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 78,
+      "start_frame": 716,
+      "end_frame": 732,
+      "start": 358.0,
+      "end": 366.5,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 79,
+      "start_frame": 733,
+      "end_frame": 746,
+      "start": 366.5,
+      "end": 373.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 80,
+      "start_frame": 747,
+      "end_frame": 775,
+      "start": 373.5,
+      "end": 388.0,
+      "duration": 14.5
+    },
+    {
+      "segment_number": 81,
+      "start_frame": 776,
+      "end_frame": 787,
+      "start": 388.0,
+      "end": 394.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 82,
+      "start_frame": 788,
+      "end_frame": 799,
+      "start": 394.0,
+      "end": 400.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 83,
+      "start_frame": 800,
+      "end_frame": 809,
+      "start": 400.0,
+      "end": 405.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 84,
+      "start_frame": 810,
+      "end_frame": 821,
+      "start": 405.0,
+      "end": 411.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 85,
+      "start_frame": 822,
+      "end_frame": 844,
+      "start": 411.0,
+      "end": 422.5,
+      "duration": 11.5
+    },
+    {
+      "segment_number": 86,
+      "start_frame": 845,
+      "end_frame": 853,
+      "start": 422.5,
+      "end": 427.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 87,
+      "start_frame": 854,
+      "end_frame": 865,
+      "start": 427.0,
+      "end": 433.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 88,
+      "start_frame": 866,
+      "end_frame": 871,
+      "start": 433.0,
+      "end": 436.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 89,
+      "start_frame": 872,
+      "end_frame": 877,
+      "start": 436.0,
+      "end": 439.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 90,
+      "start_frame": 878,
+      "end_frame": 882,
+      "start": 439.0,
+      "end": 441.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 91,
+      "start_frame": 883,
+      "end_frame": 886,
+      "start": 441.5,
+      "end": 443.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 92,
+      "start_frame": 887,
+      "end_frame": 900,
+      "start": 443.5,
+      "end": 450.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 93,
+      "start_frame": 901,
+      "end_frame": 918,
+      "start": 450.5,
+      "end": 459.5,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 94,
+      "start_frame": 919,
+      "end_frame": 936,
+      "start": 459.5,
+      "end": 468.5,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 95,
+      "start_frame": 937,
+      "end_frame": 941,
+      "start": 468.5,
+      "end": 471.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 96,
+      "start_frame": 942,
+      "end_frame": 947,
+      "start": 471.0,
+      "end": 474.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 97,
+      "start_frame": 948,
+      "end_frame": 955,
+      "start": 474.0,
+      "end": 478.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 98,
+      "start_frame": 956,
+      "end_frame": 959,
+      "start": 478.0,
+      "end": 480.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 99,
+      "start_frame": 960,
+      "end_frame": 966,
+      "start": 480.0,
+      "end": 483.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 100,
+      "start_frame": 967,
+      "end_frame": 975,
+      "start": 483.5,
+      "end": 488.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 101,
+      "start_frame": 976,
+      "end_frame": 979,
+      "start": 488.0,
+      "end": 490.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 102,
+      "start_frame": 980,
+      "end_frame": 983,
+      "start": 490.0,
+      "end": 492.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 103,
+      "start_frame": 984,
+      "end_frame": 989,
+      "start": 492.0,
+      "end": 495.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 104,
+      "start_frame": 990,
+      "end_frame": 994,
+      "start": 495.0,
+      "end": 497.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 105,
+      "start_frame": 995,
+      "end_frame": 999,
+      "start": 497.5,
+      "end": 500.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 106,
+      "start_frame": 1000,
+      "end_frame": 1004,
+      "start": 500.0,
+      "end": 502.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 107,
+      "start_frame": 1005,
+      "end_frame": 1010,
+      "start": 502.5,
+      "end": 505.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 108,
+      "start_frame": 1011,
+      "end_frame": 1015,
+      "start": 505.5,
+      "end": 508.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 109,
+      "start_frame": 1016,
+      "end_frame": 1020,
+      "start": 508.0,
+      "end": 510.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 110,
+      "start_frame": 1021,
+      "end_frame": 1027,
+      "start": 510.5,
+      "end": 514.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 111,
+      "start_frame": 1028,
+      "end_frame": 1031,
+      "start": 514.0,
+      "end": 516.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 112,
+      "start_frame": 1032,
+      "end_frame": 1036,
+      "start": 516.0,
+      "end": 518.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 113,
+      "start_frame": 1037,
+      "end_frame": 1043,
+      "start": 518.5,
+      "end": 522.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 114,
+      "start_frame": 1044,
+      "end_frame": 1053,
+      "start": 522.0,
+      "end": 527.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 115,
+      "start_frame": 1054,
+      "end_frame": 1069,
+      "start": 527.0,
+      "end": 535.0,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 116,
+      "start_frame": 1070,
+      "end_frame": 1077,
+      "start": 535.0,
+      "end": 539.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 117,
+      "start_frame": 1078,
+      "end_frame": 1084,
+      "start": 539.0,
+      "end": 542.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 118,
+      "start_frame": 1085,
+      "end_frame": 1089,
+      "start": 542.5,
+      "end": 545.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 119,
+      "start_frame": 1090,
+      "end_frame": 1095,
+      "start": 545.0,
+      "end": 548.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 120,
+      "start_frame": 1096,
+      "end_frame": 1102,
+      "start": 548.0,
+      "end": 551.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 121,
+      "start_frame": 1103,
+      "end_frame": 1109,
+      "start": 551.5,
+      "end": 555.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 122,
+      "start_frame": 1110,
+      "end_frame": 1128,
+      "start": 555.0,
+      "end": 564.5,
+      "duration": 9.5
+    },
+    {
+      "segment_number": 123,
+      "start_frame": 1129,
+      "end_frame": 1147,
+      "start": 564.5,
+      "end": 574.0,
+      "duration": 9.5
+    },
+    {
+      "segment_number": 124,
+      "start_frame": 1148,
+      "end_frame": 1160,
+      "start": 574.0,
+      "end": 580.5,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 125,
+      "start_frame": 1161,
+      "end_frame": 1170,
+      "start": 580.5,
+      "end": 585.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 126,
+      "start_frame": 1171,
+      "end_frame": 1177,
+      "start": 585.5,
+      "end": 589.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 127,
+      "start_frame": 1178,
+      "end_frame": 1207,
+      "start": 589.0,
+      "end": 604.0,
+      "duration": 15.0
+    },
+    {
+      "segment_number": 128,
+      "start_frame": 1208,
+      "end_frame": 1220,
+      "start": 604.0,
+      "end": 610.5,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 129,
+      "start_frame": 1221,
+      "end_frame": 1227,
+      "start": 610.5,
+      "end": 614.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 130,
+      "start_frame": 1228,
+      "end_frame": 1253,
+      "start": 614.0,
+      "end": 627.0,
+      "duration": 13.0
+    },
+    {
+      "segment_number": 131,
+      "start_frame": 1254,
+      "end_frame": 1258,
+      "start": 627.0,
+      "end": 629.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 132,
+      "start_frame": 1259,
+      "end_frame": 1269,
+      "start": 629.5,
+      "end": 635.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 133,
+      "start_frame": 1270,
+      "end_frame": 1279,
+      "start": 635.0,
+      "end": 640.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 134,
+      "start_frame": 1280,
+      "end_frame": 1285,
+      "start": 640.0,
+      "end": 643.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 135,
+      "start_frame": 1286,
+      "end_frame": 1295,
+      "start": 643.0,
+      "end": 648.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 136,
+      "start_frame": 1296,
+      "end_frame": 1305,
+      "start": 648.0,
+      "end": 653.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 137,
+      "start_frame": 1306,
+      "end_frame": 1309,
+      "start": 653.0,
+      "end": 655.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 138,
+      "start_frame": 1310,
+      "end_frame": 1313,
+      "start": 655.0,
+      "end": 657.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 139,
+      "start_frame": 1314,
+      "end_frame": 1318,
+      "start": 657.0,
+      "end": 659.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 140,
+      "start_frame": 1319,
+      "end_frame": 1337,
+      "start": 659.5,
+      "end": 669.0,
+      "duration": 9.5
+    },
+    {
+      "segment_number": 141,
+      "start_frame": 1338,
+      "end_frame": 1344,
+      "start": 669.0,
+      "end": 672.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 142,
+      "start_frame": 1345,
+      "end_frame": 1368,
+      "start": 672.5,
+      "end": 684.5,
+      "duration": 12.0
+    },
+    {
+      "segment_number": 143,
+      "start_frame": 1369,
+      "end_frame": 1373,
+      "start": 684.5,
+      "end": 687.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 144,
+      "start_frame": 1374,
+      "end_frame": 1379,
+      "start": 687.0,
+      "end": 690.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 145,
+      "start_frame": 1380,
+      "end_frame": 1393,
+      "start": 690.0,
+      "end": 697.0,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 146,
+      "start_frame": 1394,
+      "end_frame": 1399,
+      "start": 697.0,
+      "end": 700.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 147,
+      "start_frame": 1400,
+      "end_frame": 1407,
+      "start": 700.0,
+      "end": 704.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 148,
+      "start_frame": 1408,
+      "end_frame": 1414,
+      "start": 704.0,
+      "end": 707.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 149,
+      "start_frame": 1415,
+      "end_frame": 1427,
+      "start": 707.5,
+      "end": 714.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 150,
+      "start_frame": 1428,
+      "end_frame": 1434,
+      "start": 714.0,
+      "end": 717.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 151,
+      "start_frame": 1435,
+      "end_frame": 1467,
+      "start": 717.5,
+      "end": 734.0,
+      "duration": 16.5
+    },
+    {
+      "segment_number": 152,
+      "start_frame": 1468,
+      "end_frame": 1482,
+      "start": 734.0,
+      "end": 741.5,
+      "duration": 7.5
+    },
+    {
+      "segment_number": 153,
+      "start_frame": 1483,
+      "end_frame": 1490,
+      "start": 741.5,
+      "end": 745.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 154,
+      "start_frame": 1491,
+      "end_frame": 1504,
+      "start": 745.5,
+      "end": 752.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 155,
+      "start_frame": 1505,
+      "end_frame": 1510,
+      "start": 752.5,
+      "end": 755.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 156,
+      "start_frame": 1511,
+      "end_frame": 1518,
+      "start": 755.5,
+      "end": 759.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 157,
+      "start_frame": 1519,
+      "end_frame": 1529,
+      "start": 759.5,
+      "end": 765.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 158,
+      "start_frame": 1530,
+      "end_frame": 1554,
+      "start": 765.0,
+      "end": 777.5,
+      "duration": 12.5
+    },
+    {
+      "segment_number": 159,
+      "start_frame": 1555,
+      "end_frame": 1578,
+      "start": 777.5,
+      "end": 789.5,
+      "duration": 12.0
+    },
+    {
+      "segment_number": 160,
+      "start_frame": 1579,
+      "end_frame": 1586,
+      "start": 789.5,
+      "end": 793.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 161,
+      "start_frame": 1587,
+      "end_frame": 1602,
+      "start": 793.5,
+      "end": 801.5,
+      "duration": 8.0
+    },
+    {
+      "segment_number": 162,
+      "start_frame": 1603,
+      "end_frame": 1616,
+      "start": 801.5,
+      "end": 808.5,
+      "duration": 7.0
+    },
+    {
+      "segment_number": 163,
+      "start_frame": 1617,
+      "end_frame": 1622,
+      "start": 808.5,
+      "end": 811.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 164,
+      "start_frame": 1623,
+      "end_frame": 1635,
+      "start": 811.5,
+      "end": 818.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 165,
+      "start_frame": 1636,
+      "end_frame": 1652,
+      "start": 818.0,
+      "end": 826.5,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 166,
+      "start_frame": 1653,
+      "end_frame": 1673,
+      "start": 826.5,
+      "end": 837.0,
+      "duration": 10.5
+    },
+    {
+      "segment_number": 167,
+      "start_frame": 1674,
+      "end_frame": 1680,
+      "start": 837.0,
+      "end": 840.5,
+      "duration": 3.5
+    }
+  ],
+  "0ntqnVF5Z24": [
+    {
+      "segment_number": 0,
+      "start_frame": 0,
+      "end_frame": 9,
+      "start": 0.0,
+      "end": 5.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 1,
+      "start_frame": 10,
+      "end_frame": 18,
+      "start": 5.0,
+      "end": 9.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 2,
+      "start_frame": 19,
+      "end_frame": 29,
+      "start": 9.5,
+      "end": 15.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 3,
+      "start_frame": 30,
+      "end_frame": 39,
+      "start": 15.0,
+      "end": 20.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 4,
+      "start_frame": 40,
+      "end_frame": 49,
+      "start": 20.0,
+      "end": 25.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 5,
+      "start_frame": 50,
+      "end_frame": 59,
+      "start": 25.0,
+      "end": 30.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 6,
+      "start_frame": 60,
+      "end_frame": 70,
+      "start": 30.0,
+      "end": 35.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 7,
+      "start_frame": 71,
+      "end_frame": 79,
+      "start": 35.5,
+      "end": 40.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 8,
+      "start_frame": 80,
+      "end_frame": 89,
+      "start": 40.0,
+      "end": 45.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 9,
+      "start_frame": 90,
+      "end_frame": 99,
+      "start": 45.0,
+      "end": 50.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 10,
+      "start_frame": 100,
+      "end_frame": 110,
+      "start": 50.0,
+      "end": 55.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 11,
+      "start_frame": 111,
+      "end_frame": 119,
+      "start": 55.5,
+      "end": 60.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 12,
+      "start_frame": 120,
+      "end_frame": 129,
+      "start": 60.0,
+      "end": 65.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 13,
+      "start_frame": 130,
+      "end_frame": 139,
+      "start": 65.0,
+      "end": 70.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 14,
+      "start_frame": 140,
+      "end_frame": 146,
+      "start": 70.0,
+      "end": 73.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 15,
+      "start_frame": 147,
+      "end_frame": 158,
+      "start": 73.5,
+      "end": 79.5,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 16,
+      "start_frame": 159,
+      "end_frame": 168,
+      "start": 79.5,
+      "end": 84.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 17,
+      "start_frame": 169,
+      "end_frame": 179,
+      "start": 84.5,
+      "end": 90.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 18,
+      "start_frame": 180,
+      "end_frame": 188,
+      "start": 90.0,
+      "end": 94.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 19,
+      "start_frame": 189,
+      "end_frame": 208,
+      "start": 94.5,
+      "end": 104.5,
+      "duration": 10.0
+    },
+    {
+      "segment_number": 20,
+      "start_frame": 209,
+      "end_frame": 216,
+      "start": 104.5,
+      "end": 108.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 21,
+      "start_frame": 217,
+      "end_frame": 227,
+      "start": 108.5,
+      "end": 114.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 22,
+      "start_frame": 228,
+      "end_frame": 237,
+      "start": 114.0,
+      "end": 119.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 23,
+      "start_frame": 238,
+      "end_frame": 247,
+      "start": 119.0,
+      "end": 124.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 24,
+      "start_frame": 248,
+      "end_frame": 257,
+      "start": 124.0,
+      "end": 129.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 25,
+      "start_frame": 258,
+      "end_frame": 268,
+      "start": 129.0,
+      "end": 134.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 26,
+      "start_frame": 269,
+      "end_frame": 277,
+      "start": 134.5,
+      "end": 139.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 27,
+      "start_frame": 278,
+      "end_frame": 288,
+      "start": 139.0,
+      "end": 144.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 28,
+      "start_frame": 289,
+      "end_frame": 296,
+      "start": 144.5,
+      "end": 148.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 29,
+      "start_frame": 297,
+      "end_frame": 306,
+      "start": 148.5,
+      "end": 153.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 30,
+      "start_frame": 307,
+      "end_frame": 317,
+      "start": 153.5,
+      "end": 159.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 31,
+      "start_frame": 318,
+      "end_frame": 326,
+      "start": 159.0,
+      "end": 163.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 32,
+      "start_frame": 327,
+      "end_frame": 336,
+      "start": 163.5,
+      "end": 168.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 33,
+      "start_frame": 337,
+      "end_frame": 347,
+      "start": 168.5,
+      "end": 174.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 34,
+      "start_frame": 348,
+      "end_frame": 357,
+      "start": 174.0,
+      "end": 179.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 35,
+      "start_frame": 358,
+      "end_frame": 366,
+      "start": 179.0,
+      "end": 183.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 36,
+      "start_frame": 367,
+      "end_frame": 377,
+      "start": 183.5,
+      "end": 189.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 37,
+      "start_frame": 378,
+      "end_frame": 387,
+      "start": 189.0,
+      "end": 194.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 38,
+      "start_frame": 388,
+      "end_frame": 395,
+      "start": 194.0,
+      "end": 198.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 39,
+      "start_frame": 396,
+      "end_frame": 406,
+      "start": 198.0,
+      "end": 203.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 40,
+      "start_frame": 407,
+      "end_frame": 416,
+      "start": 203.5,
+      "end": 208.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 41,
+      "start_frame": 417,
+      "end_frame": 425,
+      "start": 208.5,
+      "end": 213.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 42,
+      "start_frame": 426,
+      "end_frame": 436,
+      "start": 213.0,
+      "end": 218.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 43,
+      "start_frame": 437,
+      "end_frame": 446,
+      "start": 218.5,
+      "end": 223.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 44,
+      "start_frame": 447,
+      "end_frame": 455,
+      "start": 223.5,
+      "end": 228.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 45,
+      "start_frame": 456,
+      "end_frame": 465,
+      "start": 228.0,
+      "end": 233.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 46,
+      "start_frame": 466,
+      "end_frame": 475,
+      "start": 233.0,
+      "end": 238.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 47,
+      "start_frame": 476,
+      "end_frame": 486,
+      "start": 238.0,
+      "end": 243.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 48,
+      "start_frame": 487,
+      "end_frame": 495,
+      "start": 243.5,
+      "end": 248.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 49,
+      "start_frame": 496,
+      "end_frame": 504,
+      "start": 248.0,
+      "end": 252.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 50,
+      "start_frame": 505,
+      "end_frame": 515,
+      "start": 252.5,
+      "end": 258.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 51,
+      "start_frame": 516,
+      "end_frame": 525,
+      "start": 258.0,
+      "end": 263.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 52,
+      "start_frame": 526,
+      "end_frame": 534,
+      "start": 263.0,
+      "end": 267.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 53,
+      "start_frame": 535,
+      "end_frame": 545,
+      "start": 267.5,
+      "end": 273.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 54,
+      "start_frame": 546,
+      "end_frame": 554,
+      "start": 273.0,
+      "end": 277.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 55,
+      "start_frame": 555,
+      "end_frame": 564,
+      "start": 277.5,
+      "end": 282.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 56,
+      "start_frame": 565,
+      "end_frame": 577,
+      "start": 282.5,
+      "end": 289.0,
+      "duration": 6.5
+    },
+    {
+      "segment_number": 57,
+      "start_frame": 578,
+      "end_frame": 585,
+      "start": 289.0,
+      "end": 293.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 58,
+      "start_frame": 586,
+      "end_frame": 594,
+      "start": 293.0,
+      "end": 297.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 59,
+      "start_frame": 595,
+      "end_frame": 605,
+      "start": 297.5,
+      "end": 303.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 60,
+      "start_frame": 606,
+      "end_frame": 614,
+      "start": 303.0,
+      "end": 307.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 61,
+      "start_frame": 615,
+      "end_frame": 623,
+      "start": 307.5,
+      "end": 312.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 62,
+      "start_frame": 624,
+      "end_frame": 633,
+      "start": 312.0,
+      "end": 317.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 63,
+      "start_frame": 634,
+      "end_frame": 644,
+      "start": 317.0,
+      "end": 322.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 64,
+      "start_frame": 645,
+      "end_frame": 654,
+      "start": 322.5,
+      "end": 327.5,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 65,
+      "start_frame": 655,
+      "end_frame": 662,
+      "start": 327.5,
+      "end": 331.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 66,
+      "start_frame": 663,
+      "end_frame": 666,
+      "start": 331.5,
+      "end": 333.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 67,
+      "start_frame": 667,
+      "end_frame": 673,
+      "start": 333.5,
+      "end": 337.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 68,
+      "start_frame": 674,
+      "end_frame": 684,
+      "start": 337.0,
+      "end": 342.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 69,
+      "start_frame": 685,
+      "end_frame": 693,
+      "start": 342.5,
+      "end": 347.0,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 70,
+      "start_frame": 694,
+      "end_frame": 703,
+      "start": 347.0,
+      "end": 352.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 71,
+      "start_frame": 704,
+      "end_frame": 711,
+      "start": 352.0,
+      "end": 356.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 72,
+      "start_frame": 712,
+      "end_frame": 723,
+      "start": 356.0,
+      "end": 362.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 73,
+      "start_frame": 724,
+      "end_frame": 733,
+      "start": 362.0,
+      "end": 367.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 74,
+      "start_frame": 734,
+      "end_frame": 745,
+      "start": 367.0,
+      "end": 373.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 75,
+      "start_frame": 746,
+      "end_frame": 753,
+      "start": 373.0,
+      "end": 377.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 76,
+      "start_frame": 754,
+      "end_frame": 763,
+      "start": 377.0,
+      "end": 382.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 77,
+      "start_frame": 764,
+      "end_frame": 773,
+      "start": 382.0,
+      "end": 387.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 78,
+      "start_frame": 774,
+      "end_frame": 784,
+      "start": 387.0,
+      "end": 392.5,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 79,
+      "start_frame": 785,
+      "end_frame": 792,
+      "start": 392.5,
+      "end": 396.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 80,
+      "start_frame": 793,
+      "end_frame": 803,
+      "start": 396.5,
+      "end": 402.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 81,
+      "start_frame": 804,
+      "end_frame": 813,
+      "start": 402.0,
+      "end": 407.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 82,
+      "start_frame": 814,
+      "end_frame": 823,
+      "start": 407.0,
+      "end": 412.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 83,
+      "start_frame": 824,
+      "end_frame": 832,
+      "start": 412.0,
+      "end": 416.5,
+      "duration": 4.5
+    },
+    {
+      "segment_number": 84,
+      "start_frame": 833,
+      "end_frame": 851,
+      "start": 416.5,
+      "end": 426.0,
+      "duration": 9.5
+    },
+    {
+      "segment_number": 85,
+      "start_frame": 852,
+      "end_frame": 864,
+      "start": 426.0,
+      "end": 432.5,
+      "duration": 6.5
+    }
+  ],
+  "7RUP9CTCoyA": [
+    {
+      "segment_number": 0,
+      "start_frame": 0,
+      "end_frame": 3,
+      "start": 0.0,
+      "end": 2.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 1,
+      "start_frame": 4,
+      "end_frame": 11,
+      "start": 2.0,
+      "end": 6.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 2,
+      "start_frame": 12,
+      "end_frame": 23,
+      "start": 6.0,
+      "end": 12.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 3,
+      "start_frame": 24,
+      "end_frame": 27,
+      "start": 12.0,
+      "end": 14.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 4,
+      "start_frame": 28,
+      "end_frame": 31,
+      "start": 14.0,
+      "end": 16.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 5,
+      "start_frame": 32,
+      "end_frame": 35,
+      "start": 16.0,
+      "end": 18.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 6,
+      "start_frame": 36,
+      "end_frame": 47,
+      "start": 18.0,
+      "end": 24.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 7,
+      "start_frame": 48,
+      "end_frame": 59,
+      "start": 24.0,
+      "end": 30.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 8,
+      "start_frame": 60,
+      "end_frame": 71,
+      "start": 30.0,
+      "end": 36.0,
+      "duration": 6.0
+    },
+    {
+      "segment_number": 9,
+      "start_frame": 72,
+      "end_frame": 81,
+      "start": 36.0,
+      "end": 41.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 10,
+      "start_frame": 82,
+      "end_frame": 103,
+      "start": 41.0,
+      "end": 52.0,
+      "duration": 11.0
+    },
+    {
+      "segment_number": 11,
+      "start_frame": 104,
+      "end_frame": 113,
+      "start": 52.0,
+      "end": 57.0,
+      "duration": 5.0
+    },
+    {
+      "segment_number": 12,
+      "start_frame": 114,
+      "end_frame": 121,
+      "start": 57.0,
+      "end": 61.0,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 13,
+      "start_frame": 122,
+      "end_frame": 127,
+      "start": 61.0,
+      "end": 64.0,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 14,
+      "start_frame": 128,
+      "end_frame": 131,
+      "start": 64.0,
+      "end": 66.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 15,
+      "start_frame": 132,
+      "end_frame": 146,
+      "start": 66.0,
+      "end": 73.5,
+      "duration": 7.5
+    },
+    {
+      "segment_number": 16,
+      "start_frame": 147,
+      "end_frame": 163,
+      "start": 73.5,
+      "end": 82.0,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 17,
+      "start_frame": 164,
+      "end_frame": 181,
+      "start": 82.0,
+      "end": 91.0,
+      "duration": 9.0
+    },
+    {
+      "segment_number": 18,
+      "start_frame": 182,
+      "end_frame": 188,
+      "start": 91.0,
+      "end": 94.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 19,
+      "start_frame": 189,
+      "end_frame": 195,
+      "start": 94.5,
+      "end": 98.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 20,
+      "start_frame": 196,
+      "end_frame": 199,
+      "start": 98.0,
+      "end": 100.0,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 21,
+      "start_frame": 200,
+      "end_frame": 204,
+      "start": 100.0,
+      "end": 102.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 22,
+      "start_frame": 205,
+      "end_frame": 208,
+      "start": 102.5,
+      "end": 104.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 23,
+      "start_frame": 209,
+      "end_frame": 216,
+      "start": 104.5,
+      "end": 108.5,
+      "duration": 4.0
+    },
+    {
+      "segment_number": 24,
+      "start_frame": 217,
+      "end_frame": 260,
+      "start": 108.5,
+      "end": 130.5,
+      "duration": 22.0
+    },
+    {
+      "segment_number": 25,
+      "start_frame": 261,
+      "end_frame": 277,
+      "start": 130.5,
+      "end": 139.0,
+      "duration": 8.5
+    },
+    {
+      "segment_number": 26,
+      "start_frame": 278,
+      "end_frame": 298,
+      "start": 139.0,
+      "end": 149.5,
+      "duration": 10.5
+    },
+    {
+      "segment_number": 27,
+      "start_frame": 299,
+      "end_frame": 303,
+      "start": 149.5,
+      "end": 152.0,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 28,
+      "start_frame": 304,
+      "end_frame": 308,
+      "start": 152.0,
+      "end": 154.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 29,
+      "start_frame": 309,
+      "end_frame": 319,
+      "start": 154.5,
+      "end": 160.0,
+      "duration": 5.5
+    },
+    {
+      "segment_number": 30,
+      "start_frame": 320,
+      "end_frame": 324,
+      "start": 160.0,
+      "end": 162.5,
+      "duration": 2.5
+    },
+    {
+      "segment_number": 31,
+      "start_frame": 325,
+      "end_frame": 330,
+      "start": 162.5,
+      "end": 165.5,
+      "duration": 3.0
+    },
+    {
+      "segment_number": 32,
+      "start_frame": 331,
+      "end_frame": 350,
+      "start": 165.5,
+      "end": 175.5,
+      "duration": 10.0
+    },
+    {
+      "segment_number": 33,
+      "start_frame": 351,
+      "end_frame": 357,
+      "start": 175.5,
+      "end": 179.0,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 34,
+      "start_frame": 358,
+      "end_frame": 364,
+      "start": 179.0,
+      "end": 182.5,
+      "duration": 3.5
+    },
+    {
+      "segment_number": 35,
+      "start_frame": 365,
+      "end_frame": 368,
+      "start": 182.5,
+      "end": 184.5,
+      "duration": 2.0
+    },
+    {
+      "segment_number": 36,
+      "start_frame": 369,
+      "end_frame": 378,
+      "start": 184.5,
+      "end": 189.5,
+      "duration": 5.0
+    }
+  ]
+}

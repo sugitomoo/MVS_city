@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const params = getURLParams();
     
     if (!params.area || !params.place || params.videos.length === 0) {
-        showError('Missing required parameters');
+        showError('Missing required parameters. This page should be accessed through AMT interface.');
         return;
     }
     
@@ -58,7 +58,7 @@ async function loadSegmentsData() {
         initializeSegments(segmentsJson);
         initializeVideos();
         
-        document.getElementById('loading-overlay').classList.add('hidden');
+        document.getElementById('error-container').classList.add('hidden');
     } catch (error) {
         showError('Failed to load segments data: ' + error.message);
     }
@@ -430,7 +430,6 @@ function showError(message) {
             <p>${message}</p>
         </div>
     `;
-    document.getElementById('loading-overlay').classList.add('hidden');
 }
 
 // Make functions globally available

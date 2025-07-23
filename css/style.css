@@ -397,3 +397,7 @@ body {
 .segment-tile.selected .segment-include-btn:hover {
     background: #c82333;
 }
+
+.hidden {
+    display: none !important;
+}

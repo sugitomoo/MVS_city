@@ -40,8 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         mode: params.mode
     };
     
-    document.getElementById('city-title').textContent = `🎬 Multi-Video Summarization: ${cityInfo.cityName}`;
-    
     loadSegmentsData();
 });
 
@@ -346,19 +344,6 @@ function includeCurrentSegment(videoId) {
     }
 }
 
-function toggleInstructions() {
-    const content = document.getElementById('instructions-content');
-    const toggle = document.getElementById('instructions-toggle');
-    
-    if (content.style.display === 'none') {
-        content.style.display = 'block';
-        toggle.textContent = '▼';
-    } else {
-        content.style.display = 'none';
-        toggle.textContent = '▶';
-    }
-}
-
 function saveResults() {
     const percentage = totalDuration > 0 ? (selectedDuration / totalDuration * 100) : 0;
     
@@ -435,5 +420,4 @@ window.jumpToSegment = jumpToSegment;
 window.toggleSegment = toggleSegment;
 window.includeCurrentSegment = includeCurrentSegment;
 window.seekVideo = seekVideo;
-window.toggleInstructions = toggleInstructions;
 window.saveResults = saveResults;

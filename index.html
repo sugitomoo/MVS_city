@@ -7,67 +7,6 @@
 </head>
 <body>
     <div class="main-container">
-
-
-        <!-- Header -->
-        <div class="header-section">
-            <h1 class="city-title" id="city-title">🎬 Multi-Video Summarization</h1>
-            <p class="task-description">
-                Select representative, impressive, and unique scenes to create a 5-15% summary
-            </p>
-            <div class="save-button-container">
-                <button class="save-button" id="save-button" onclick="saveResults()">💾 Save Results</button>
-            </div>
-        </div>
-        
-        <!-- Instructions Section -->
-        <div class="instructions-section">
-            <h2 onclick="toggleInstructions()" style="cursor: pointer;">📋 Task Description <span id="instructions-toggle">▼</span></h2>
-            <div id="instructions-content" class="instructions-content">
-                <p>In this task, you will watch multiple videos about a specific tourist city and select <strong>"representative, impressive, and unique scenes"</strong> that best summarize the city across the entire video collection.</p>
-                
-                <div class="instructions-grid">
-                    <div class="instructions-column">
-                        <h3>🎯 Selection Guidelines</h3>
-                        <ul>
-                            <li>If a similar scene appears in other videos, avoid duplication</li>
-                            <li>If the same content exists in multiple videos, choose only the most attractive, clear, or visually impressive version</li>
-                            <li>The total length of selected segments across all videos should be between <strong>5% and 15%</strong> of the overall content</li>
-                            <li>Focus on scenes that are unique and valuable, ideally those only visible in that specific video</li>
-                            <li>Audio is muted, so please base your judgment only on visuals</li>
-                            <li>Do not consider temporary on-screen text (subtitles, overlays) as the main reason to judge importance</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="instructions-column">
-                        <h3>🖱️ Interface Operations</h3>
-                        <ul>
-                            <li><strong>Video Navigation:</strong> Use video controls to play, pause, and seek through videos</li>
-                            <li><strong>Segment Selection:</strong> Click on segment tiles to jump to that segment in the video</li>
-                            <li><strong>Include/Remove:</strong> Click the "Include" button on segment tiles to select them for the summary</li>
-                            <li><strong>Quick Include:</strong> Use the "Include Current Segment" button to select the segment at current playback position</li>
-                            <li><strong>Progress Bar:</strong> Click on the progress bar to jump to specific times</li>
-                            <li><strong>Segment Boundaries:</strong> Visual boundaries on the progress bar show segment divisions</li>
-                            <li><strong>Statistics:</strong> Monitor your selection progress using the stats at the top</li>
-                            <li><strong>Save:</strong> Click "Save Results" when finished to submit your selections</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="instructions-workflow">
-                    <h3>📝 Workflow</h3>
-                    <ol>
-                        <li>Check the name of the tourist city provided as the query</li>
-                        <li>Watch all videos related to the city</li>
-                        <li>From each video, select important segments that best express the city's characteristics and appeal</li>
-                        <li>Check for duplicate content across videos</li>
-                        <li>If a similar segment has already been selected from another video, choose only the best version and discard the redundant one</li>
-                        <li>After selecting, double-check that the final summary covers all key aspects of the city without unnecessary repetition or omissions</li>
-                        <li>Press the "Save" button to submit your results</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
         <!-- Progress Dashboard -->
         <div class="progress-dashboard">
             <div class="progress-stats">
@@ -75,7 +14,7 @@
                     <div class="stat-value" id="total-segments">0</div>
                     <div class="stat-label">Total Segments</div>
                 </div>
-                <div class="stat-box active" id="selected-stat">
+                <div class="stat-box" id="selected-stat">
                     <div class="stat-value" id="selected-segments">0</div>
                     <div class="stat-label">Selected</div>
                 </div>
@@ -83,7 +22,7 @@
                     <div class="stat-value" id="selected-duration-display">0s</div>
                     <div class="stat-label">Selected Duration</div>
                 </div>
-                <div class="stat-box" id="percentage-stat">
+                <div class="stat-box warning" id="percentage-stat">
                     <div class="stat-value" id="percentage-display">0%</div>
                     <div class="stat-label">Of Total</div>
                 </div>

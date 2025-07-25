@@ -415,9 +415,21 @@ function showError(message) {
     `;
 }
 
+
 // Make functions globally available
 window.jumpToSegment = jumpToSegment;
 window.toggleSegment = toggleSegment;
 window.includeCurrentSegment = includeCurrentSegment;
 window.seekVideo = seekVideo;
 window.saveResults = saveResults;
+
+if (cityInfo.mode === 'amt') {
+    window.addEventListener('message', function(event) {
+        // 必要ならここで event.origin をチェック
+        // e.g. if (event.origin !== 'https://worker-sandbox.mturk.com') return;
+        if (event.data && event.data.type === 'save-request') {
+            saveResults();
+        }
+    });
+}
+

@@ -147,7 +147,8 @@
 
 <script>
     const GITHUB_PAGES_URL = 'https://sugitomoo.github.io/MVS_city/';
-    
+    const GITHUB_PAGES_ORIGIN = 'https://sugitomoo.github.io';
+
     const cityData = {
         area: '${area}',
         place: '${place}',
@@ -179,11 +180,11 @@
     // Save Results button handler
     document.getElementById('save-results-btn').addEventListener('click', function() {
         // Send message to iframe to save results
-        iframe.contentWindow.postMessage({ type: 'save-request' }, GITHUB_PAGES_URL);
+        iframe.contentWindow.postMessage({ type: 'save-request' }, '*');
     });
     
     // Return HIT button handler
-    document.getElementById('return-hit-btn').addEventListener('click', function() {
+    document.getElementById('return-hit-btn').addEventListener('click', () => {
         if (confirm('Are you sure you want to return this HIT? Your selection has been saved.')) {
             // Here you would normally trigger the AMT return function
             // For now, just show a message
@@ -192,7 +193,10 @@
     });
     
     // Listen for messages from iframe
-    window.addEventListener('message', function(event) {
+    window.addEventListener('message', event => {
+        // GitHub Pages origin 以外は無視
+        if (event.origin !== GITHUB_PAGES_ORIGIN) return;
+        
         if (event.data.type === 'results-saved') {
             currentResults = event.data.results;
             
@@ -213,14 +217,15 @@
                 // Submit the form to save data
                 document.getElementById('mturk-form').submit();
             } else {
-                // Show error message
-                document.getElementById('status-message').innerHTML = 
-                    '<span style="color: #f44336;">Selection must be between 5% and 15% of total duration. Current: ' + 
-                    currentResults.percentage.toFixed(1) + '%</span>';
-                    
-                alert('Selection must be between 5% and 15% of total duration.\n\n' +
-                      'Current selection: ' + currentResults.percentage.toFixed(1) + '%\n' +
-                      (currentResults.percentage < 5 ? 'Please select more segments.' : 'Please remove some segments.'));
+                document.getElementById('status-message').innerHTML =
+                  `<span style="color: #f44336;">Selection must be between 5% and 15%. Current: ${currentResults.percentage.toFixed(1)}%</span>`;
+                alert(
+                  `Selection must be between 5% and 15% of total duration.\n\n` +
+                  `Current: ${currentResults.percentage.toFixed(1)}%\n` +
+                  (currentResults.percentage < 5
+                    ? 'Please select more segments.'
+                    : 'Please remove some segments.')
+                );
             }
         }
     });

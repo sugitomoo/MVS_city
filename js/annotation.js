@@ -24,23 +24,32 @@ function getURLParams() {
 }
 
 // Initialize on load
+// document.addEventListener('DOMContentLoaded', function() {
+//     const params = getURLParams();
+    
+//     if (!params.area || !params.place || params.videos.length === 0) {
+//         showError('Missing required parameters. This page should be accessed through AMT interface.');
+//         return;
+//     }
+    
+//     cityInfo = {
+//         area: params.area,
+//         place: params.place,
+//         cityName: params.city || params.place,
+//         videoIds: params.videos,
+//         mode: params.mode
+//     };
+    
+//     loadSegmentsData();
+// });
 document.addEventListener('DOMContentLoaded', function() {
     const params = getURLParams();
-    
-    if (!params.area || !params.place || params.videos.length === 0) {
-        showError('Missing required parameters. This page should be accessed through AMT interface.');
-        return;
+    if (params.city) {
+        const titleElement = document.getElementById('city-title');
+        if (titleElement) {
+            titleElement.textContent = params.city;
+        }
     }
-    
-    cityInfo = {
-        area: params.area,
-        place: params.place,
-        cityName: params.city || params.place,
-        videoIds: params.videos,
-        mode: params.mode
-    };
-    
-    loadSegmentsData();
 });
 
 // Load segments data from GitHub Pages
@@ -347,8 +356,19 @@ function includeCurrentSegment(videoId) {
 function saveResults() {
     const percentage = totalDuration > 0 ? (selectedDuration / totalDuration * 100) : 0;
     
+    // パーセンテージチェック
     if (percentage < 5 || percentage > 15) {
-        alert('Please select between 5% and 15% of segments before saving.');
+        const message = `Please select between 5% and 15% of segments.\nCurrent: ${percentage.toFixed(1)}%`;
+        
+        if (cityInfo.mode === 'amt') {
+            // AMTモードの場合は親ウィンドウに通知
+            window.parent.postMessage({
+                type: 'save-error',
+                message: message,
+                percentage: percentage
+            }, '*');
+        }
+        alert(message);
         return;
     }
     
@@ -379,6 +399,8 @@ function saveResults() {
         timestamp: new Date().toISOString()
     };
     
+    console.log('Saving results:', results); // デバッグ用
+    
     // If in AMT mode, send message to parent
     if (cityInfo.mode === 'amt') {
         window.parent.postMessage({
@@ -388,9 +410,8 @@ function saveResults() {
     } else {
         // Standalone mode - download results
         downloadResults(results);
+        alert('Results saved successfully!');
     }
-    
-    alert('Results saved successfully!');
 }
 
 function downloadResults(results) {
@@ -433,3 +454,14 @@ if (cityInfo.mode === 'amt') {
     });
 }
 
+// AMTモードでのメッセージ受信設定
+if (cityInfo.mode === 'amt') {
+    // 親ウィンドウからのメッセージを待機
+    window.addEventListener('message', function(event) {
+        // originチェック（AMTのサンドボックス環境を考慮）
+        // 本番環境では適切なoriginチェックを追加
+        if (event.data && event.data.type === 'save-request') {
+            saveResults();
+        }
+    });
+}

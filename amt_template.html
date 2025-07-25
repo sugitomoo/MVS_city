@@ -179,8 +179,17 @@
     
     // Save Results button handler
     document.getElementById('save-results-btn').addEventListener('click', function() {
+        console.log('Save button clicked'); // デバッグ用
+        
+        // iframeが正しく読み込まれているか確認
+        const iframe = document.getElementById('annotation-iframe');
+        if (!iframe || !iframe.contentWindow) {
+            alert('Interface not loaded properly. Please refresh the page.');
+            return;
+        }
+        
         // Send message to iframe to save results
-        iframe.contentWindow.postMessage({ type: 'save-request' }, '*');
+        iframe.contentWindow.postMessage({ type: 'save-request' }, GITHUB_PAGES_ORIGIN);
     });
     
     // Return HIT button handler
@@ -194,10 +203,16 @@
     
     // Listen for messages from iframe
     window.addEventListener('message', event => {
+        console.log('Message received:', event); // デバッグ用
+        
         // GitHub Pages origin 以外は無視
-        if (event.origin !== GITHUB_PAGES_ORIGIN) return;
+        if (event.origin !== GITHUB_PAGES_ORIGIN) {
+            console.log('Origin mismatch:', event.origin);
+            return;
+        }
         
         if (event.data.type === 'results-saved') {
+            console.log('Results saved:', event.data.results); // デバッグ用
             currentResults = event.data.results;
             
             // Check if percentage is within 5-15% range
@@ -217,16 +232,12 @@
                 // Submit the form to save data
                 document.getElementById('mturk-form').submit();
             } else {
-                document.getElementById('status-message').innerHTML =
-                  `<span style="color: #f44336;">Selection must be between 5% and 15%. Current: ${currentResults.percentage.toFixed(1)}%</span>`;
-                alert(
-                  `Selection must be between 5% and 15% of total duration.\n\n` +
-                  `Current: ${currentResults.percentage.toFixed(1)}%\n` +
-                  (currentResults.percentage < 5
-                    ? 'Please select more segments.'
-                    : 'Please remove some segments.')
-                );
+                // エラーメッセージはsaveResults関数内で表示される
             }
+        } else if (event.data.type === 'save-error') {
+            console.log('Save error:', event.data.message); // デバッグ用
+            document.getElementById('status-message').innerHTML =
+                `<span style="color: #f44336;">${event.data.message}</span>`;
         }
     });
 </script>

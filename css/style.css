@@ -309,23 +309,23 @@ body {
 
 .segments-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 8px;
 }
 
 .segment-tile {
     background: white;
     border: 2px solid #dee2e6;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 6px;
+    padding: 6px;
     cursor: pointer;
     text-align: center;
     transition: all 0.3s ease;
 }
 
 .segment-tile:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
 .segment-tile.selected {
@@ -335,16 +335,16 @@ body {
 }
 
 .segment-number {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .segment-timerange {
-    font-size: 11px;
+    font-size: 10px;
     opacity: 0.7;
-    margin-bottom: 8px;
-    line-height: 1.3;
+    margin-bottom: 4px;
+    line-height: 1.2;
 }
 
 .segment-timerange div {
@@ -353,15 +353,15 @@ body {
 
 .segment-include-btn {
     width: 100%;
-    padding: 4px 8px;
+    padding: 3px 6px;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
     background: #28a745;
     color: white;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 500;
     cursor: pointer;
-    margin-top: 6px;
+    margin-top: 4px;
 }
 
 .segment-include-btn:hover {

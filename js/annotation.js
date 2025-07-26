@@ -40,12 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         mode: params.mode
     };
     
-    // Update city title
-    const titleElement = document.getElementById('city-title');
-    if (titleElement) {
-        titleElement.textContent = cityInfo.cityName;
-    }
-    
     // Load segments data
     loadSegmentsData();
 });

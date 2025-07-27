@@ -449,6 +449,26 @@ body {
     transform: scale(1.05);
 }
 
+.segment-tile.preview-playing .segment-number {
+    color: #000 !important;
+    font-weight: 700;
+}
+
+.segment-tile.preview-playing .segment-timerange {
+    color: #333 !important;
+    font-weight: 600;
+}
+
+.segment-tile.preview-playing .segment-include-btn {
+    background: #ff6b6b !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.segment-tile.preview-playing .segment-include-btn:hover {
+    background: #ff4757 !important;
+}
+
 @keyframes tileGlow {
     0% { 
         box-shadow: 0 0 10px rgba(255, 107, 107, 0.8);

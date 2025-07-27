@@ -10,6 +10,9 @@ let selectedDuration = 0;
 let videoMetadata = {};
 let cityInfo = {};
 
+// Preview state for each video
+const videoPreviewState = {};
+
 // Get URL parameters
 function getURLParams() {
     const params = new URLSearchParams(window.location.search);
@@ -71,8 +74,17 @@ function createVideoElements(segmentsJson) {
         const videoNum = index + 1;
         const videoUrl = `${S3_BASE_URL}${cityInfo.area}/${cityInfo.place}/${videoId}.mp4`;
         
+        // Initialize preview state for this video
+        videoPreviewState[`video${videoNum}`] = {
+            isPlaying: false,
+            currentIndex: 0,
+            queue: [],
+            interval: null
+        };
+        
         const videoContainer = document.createElement('div');
         videoContainer.className = 'video-container';
+        videoContainer.id = `video${videoNum}-container`;
         
         // Create segment tiles HTML
         const segmentTilesHtml = segmentsJson[videoId].map(segment => `
@@ -111,6 +123,20 @@ function createVideoElements(segmentsJson) {
                     <span id="v${videoNum}-current-time">0:00</span>
                     <button class="include-current-btn" onclick="includeCurrentSegment('video${videoNum}')">Include Current Segment</button>
                     <span id="v${videoNum}-total-time">0:00</span>
+                </div>
+                
+                <!-- Video-specific preview controls -->
+                <div class="video-controls">
+                    <button class="video-preview-button" id="preview-btn-video${videoNum}" onclick="startVideoPreview('video${videoNum}')" disabled>
+                        <span>▶</span> プレビュー
+                    </button>
+                    <button class="video-stop-button hidden" id="stop-btn-video${videoNum}" onclick="stopVideoPreview('video${videoNum}')">
+                        <span>■</span> 停止
+                    </button>
+                    <div class="video-preview-status hidden" id="preview-status-video${videoNum}">
+                        <span class="video-preview-label">再生中:</span>
+                        <span class="video-preview-info" id="preview-info-video${videoNum}"></span>
+                    </div>
                 </div>
             </div>
             
@@ -243,7 +269,8 @@ function toggleSegment(segmentId, videoId, segmentNumber) {
             videoName: videoId,
             youtubeId: segment.youtubeId,
             segmentNumber: segmentNumber,
-            selected: 1
+            selected: 1,
+            segment: segment
         };
         tile.classList.add('selected');
         if (progressBlock) {
@@ -255,6 +282,7 @@ function toggleSegment(segmentId, videoId, segmentNumber) {
     }
     
     updateProgress();
+    updateVideoPreviewButton(videoId);
 }
 
 function previewSegment(videoId, segmentNumber) {
@@ -310,6 +338,124 @@ function updateProgress() {
         percentageBox.classList.add('success');
     } else {
         percentageBox.classList.add('warning');
+    }
+}
+
+function updateVideoPreviewButton(videoId) {
+    const previewButton = document.getElementById(`preview-btn-${videoId}`);
+    if (!previewButton) return;
+    
+    // Count selected segments for this video
+    const videoSelections = Object.keys(selections).filter(segId => 
+        selections[segId].videoName === videoId
+    );
+    
+    previewButton.disabled = videoSelections.length === 0;
+}
+
+// Video-specific preview functionality
+function startVideoPreview(videoId) {
+    const state = videoPreviewState[videoId];
+    if (!state) return;
+    
+    // Build preview queue for this video only
+    state.queue = [];
+    const segments = segmentData[videoId];
+    
+    segments.forEach(segment => {
+        if (selections[segment.id]) {
+            state.queue.push({
+                segmentId: segment.id,
+                segment: segment
+            });
+        }
+    });
+    
+    if (state.queue.length === 0) return;
+    
+    state.currentIndex = 0;
+    state.isPlaying = true;
+    
+    // Update UI
+    document.getElementById(`preview-btn-${videoId}`).classList.add('hidden');
+    document.getElementById(`stop-btn-${videoId}`).classList.remove('hidden');
+    document.getElementById(`preview-status-${videoId}`).classList.remove('hidden');
+    
+    // Start playing
+    playNextVideoSegment(videoId);
+}
+
+function playNextVideoSegment(videoId) {
+    const state = videoPreviewState[videoId];
+    if (!state || !state.isPlaying || state.currentIndex >= state.queue.length) {
+        stopVideoPreview(videoId);
+        return;
+    }
+    
+    const current = state.queue[state.currentIndex];
+    const player = document.getElementById(`${videoId}-player`);
+    
+    // Update status
+    document.getElementById(`preview-info-${videoId}`).textContent = 
+        `セグメント ${current.segment.segmentNumber + 1} (${state.currentIndex + 1}/${state.queue.length})`;
+    
+    // Highlight current segment
+    clearVideoPreviewHighlights(videoId);
+    const tile = document.querySelector(`[data-segment-id="${current.segmentId}"]`);
+    const progressBlock = document.getElementById(`progress-block-${current.segmentId}`);
+    if (tile) tile.classList.add('preview-playing');
+    if (progressBlock) progressBlock.classList.add('preview-playing');
+    
+    // Play segment
+    player.currentTime = current.segment.start;
+    player.play();
+    
+    // Monitor playback
+    if (state.interval) clearInterval(state.interval);
+    state.interval = setInterval(() => {
+        if (player.currentTime >= current.segment.end || player.paused) {
+            clearInterval(state.interval);
+            state.currentIndex++;
+            setTimeout(() => playNextVideoSegment(videoId), 500); // Small delay between segments
+        }
+    }, 100);
+}
+
+function stopVideoPreview(videoId) {
+    const state = videoPreviewState[videoId];
+    if (!state) return;
+    
+    state.isPlaying = false;
+    
+    // Clear interval
+    if (state.interval) {
+        clearInterval(state.interval);
+        state.interval = null;
+    }
+    
+    // Pause video
+    const player = document.getElementById(`${videoId}-player`);
+    if (player) player.pause();
+    
+    // Clear highlights
+    clearVideoPreviewHighlights(videoId);
+    
+    // Update UI
+    document.getElementById(`preview-btn-${videoId}`).classList.remove('hidden');
+    document.getElementById(`stop-btn-${videoId}`).classList.add('hidden');
+    document.getElementById(`preview-status-${videoId}`).classList.add('hidden');
+}
+
+function clearVideoPreviewHighlights(videoId) {
+    // Clear highlights for segments of this video only
+    const segments = segmentData[videoId];
+    if (segments) {
+        segments.forEach(segment => {
+            const tile = document.querySelector(`[data-segment-id="${segment.id}"]`);
+            const progressBlock = document.getElementById(`progress-block-${segment.id}`);
+            if (tile) tile.classList.remove('preview-playing');
+            if (progressBlock) progressBlock.classList.remove('preview-playing');
+        });
     }
 }
 
@@ -434,6 +580,8 @@ window.toggleSegment = toggleSegment;
 window.includeCurrentSegment = includeCurrentSegment;
 window.seekVideo = seekVideo;
 window.saveResults = saveResults;
+window.startVideoPreview = startVideoPreview;
+window.stopVideoPreview = stopVideoPreview;
 
 // AMTモードでのメッセージ受信設定
 if (window.location.search.includes('mode=amt')) {

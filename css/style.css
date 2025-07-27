@@ -148,6 +148,16 @@ body {
     border-radius: 8px;
 }
 
+.stat-box.warning {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+}
+
+.stat-box.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
 .stat-value {
     font-size: 28px;
     font-weight: bold;
@@ -190,6 +200,76 @@ body {
     border-right: 3px solid #4CAF50;
 }
 
+/* Video Controls Section */
+.video-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 0 20px 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.video-preview-button, .video-stop-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.video-preview-button {
+    background: #007bff;
+    color: white;
+}
+
+.video-preview-button:hover:not(:disabled) {
+    background: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+}
+
+.video-preview-button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.video-stop-button {
+    background: #dc3545;
+    color: white;
+}
+
+.video-stop-button:hover {
+    background: #c82333;
+}
+
+.video-preview-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: #e3f2fd;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.video-preview-label {
+    color: #1976d2;
+    font-weight: 500;
+}
+
+.video-preview-info {
+    color: #333;
+}
+
 /* Video Container */
 .videos-section {
     display: flex;
@@ -203,6 +283,11 @@ body {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.video-container.preview-active {
+    border: 3px solid #007bff;
+    box-shadow: 0 4px 20px rgba(0,123,255,0.3);
 }
 
 .video-player {
@@ -255,6 +340,18 @@ body {
 .segment-block.selected {
     background: rgba(102, 126, 234, 0.7);
     color: white;
+}
+
+.segment-block.preview-playing {
+    background: rgba(0, 123, 255, 0.9);
+    color: white;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
 }
 
 .segment-block:hover {
@@ -332,6 +429,18 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border-color: #764ba2;
+}
+
+.segment-tile.preview-playing {
+    border-color: #007bff;
+    border-width: 3px;
+    animation: tileGlow 1s infinite;
+}
+
+@keyframes tileGlow {
+    0% { box-shadow: 0 0 5px rgba(0,123,255,0.5); }
+    50% { box-shadow: 0 0 20px rgba(0,123,255,0.8); }
+    100% { box-shadow: 0 0 5px rgba(0,123,255,0.5); }
 }
 
 .segment-number {

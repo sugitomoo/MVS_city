@@ -128,15 +128,11 @@ function createVideoElements(segmentsJson) {
                 <!-- Video-specific preview controls -->
                 <div class="video-controls">
                     <button class="video-preview-button" id="preview-btn-video${videoNum}" onclick="startVideoPreview('video${videoNum}')" disabled>
-                        <span>▶</span> プレビュー
+                        <span>▶</span> Preview
                     </button>
                     <button class="video-stop-button hidden" id="stop-btn-video${videoNum}" onclick="stopVideoPreview('video${videoNum}')">
-                        <span>■</span> 停止
+                        <span>■</span> Stop
                     </button>
-                    <div class="video-preview-status hidden" id="preview-status-video${videoNum}">
-                        <span class="video-preview-label">再生中:</span>
-                        <span class="video-preview-info" id="preview-info-video${videoNum}"></span>
-                    </div>
                 </div>
             </div>
             
@@ -379,7 +375,6 @@ function startVideoPreview(videoId) {
     // Update UI
     document.getElementById(`preview-btn-${videoId}`).classList.add('hidden');
     document.getElementById(`stop-btn-${videoId}`).classList.remove('hidden');
-    document.getElementById(`preview-status-${videoId}`).classList.remove('hidden');
     
     // Start playing
     playNextVideoSegment(videoId);
@@ -394,10 +389,6 @@ function playNextVideoSegment(videoId) {
     
     const current = state.queue[state.currentIndex];
     const player = document.getElementById(`${videoId}-player`);
-    
-    // Update status
-    document.getElementById(`preview-info-${videoId}`).textContent = 
-        `セグメント ${current.segment.segmentNumber + 1} (${state.currentIndex + 1}/${state.queue.length})`;
     
     // Highlight current segment
     clearVideoPreviewHighlights(videoId);
@@ -443,7 +434,6 @@ function stopVideoPreview(videoId) {
     // Update UI
     document.getElementById(`preview-btn-${videoId}`).classList.remove('hidden');
     document.getElementById(`stop-btn-${videoId}`).classList.add('hidden');
-    document.getElementById(`preview-status-${videoId}`).classList.add('hidden');
 }
 
 function clearVideoPreviewHighlights(videoId) {
